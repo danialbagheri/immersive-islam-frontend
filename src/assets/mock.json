@@ -1,0 +1,46 @@
+{
+  "HomePage": {
+    "Featured": [
+      {
+        "title": "Video 1",
+        "videoType": "youtube",
+        "utubeId": "M5NVwuyk2uM",
+        "thumbnailIMage": "https://i.ibb.co/m9XgxX6/Screenshot-2019-06-18-at-21-41-11.png",
+        "description": "",
+        "recommendedVideos": []
+      },
+      {
+        "title": "Video 2",
+        "videoType": "youtube",
+        "utubeId": "M5NVwuyk2uM",
+        "thumbnailIMage": "https://i.ibb.co/m9XgxX6/Screenshot-2019-06-18-at-21-41-11.png",
+        "description": "",
+        "recommendedVideos": []
+      },
+      {
+        "title": "Video 1",
+        "videoType": "youtube",
+        "utubeId": "M5NVwuyk2uM",
+        "thumbnailIMage": "https://i.ibb.co/m9XgxX6/Screenshot-2019-06-18-at-21-41-11.png",
+        "description": "",
+        "recommendedVideos": []
+      },
+      {
+        "title": "Video 1",
+        "videoType": "youtube",
+        "utubeId": "M5NVwuyk2uM",
+        "thumbnailIMage": "https://i.ibb.co/m9XgxX6/Screenshot-2019-06-18-at-21-41-11.png",
+        "description": "",
+        "recommendedVideos": []
+      },
+      {
+        "title": "Video 1",
+        "videoType": "youtube",
+        "utubeId": "M5NVwuyk2uM",
+        "thumbnailIMage": "https://i.ibb.co/m9XgxX6/Screenshot-2019-06-18-at-21-41-11.png",
+        "description": "",
+        "recommendedVideos": []
+      }
+    ]
+  }
+}
