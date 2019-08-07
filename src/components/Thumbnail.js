@@ -11,7 +11,7 @@ export default class Thumbnail extends React.Component {
           src={vid.thumbnail_url}
           alt={vid.video_title}
         />
-        <p>{vid.video_title}</p>
+        <p className="thumbnail-title">{vid.video_title}</p>
         <div className="gap-20" />
       </a>
     );

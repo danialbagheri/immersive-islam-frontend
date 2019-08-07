@@ -4,14 +4,17 @@ import Search from "./Search";
 class Navbar extends Component {
   constructor(props) {
     super(props);
-    this.toggleOpen = this.toggleOpen.bind(this);
-  }
-  toggleOpen() {
-    console.log("clicked");
   }
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-success">
+        <a className="navbar-brand" href="/">
+          <img
+            src={require("../assets/logo/logo.png")}
+            style={{ height: "70px" }}
+            alt="logo"
+          />
+        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -23,13 +26,6 @@ class Navbar extends Component {
         >
           <span className="navbar-toggler-icon" />
         </button>
-        <a className="navbar-brand" href="/">
-          <img
-            src={require("../assets/logo/logo.png")}
-            style={{ height: "70px" }}
-            alt="logo"
-          />
-        </a>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto ">
             <li className="nav-item active">

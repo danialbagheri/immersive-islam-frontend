@@ -126,8 +126,12 @@ button {
 }
 @media only screen and (max-width: 460px) {
   .show-more {
+    text-align: center;
+    font-size: 16px !important;
+    width: 130px;
     float: none;
-    margin-top: 10px;
+    display: block;
+    margin: 0 auto;
     padding: 3px 6px;
     border: 1px solid #fff;
   }
@@ -205,4 +209,14 @@ button {
 .footer > p {
   color: black;
   text-align: left;
+}
+
+.thumbnail-title {
+  padding: 7px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.video-page-title {
+  font-size: 25px;
 }

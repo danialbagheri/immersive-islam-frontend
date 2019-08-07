@@ -74,15 +74,15 @@ class SingleVideo extends Component {
       <section className="container-fluid">
         <div className="gap-20" />
         <div className="row">
-          <div className="col-9 col-md-9">
+          <div className="col-12 col-md-9">
             <YouTube videoId={youtubeId} opts={opts} onReady={this._onReady} />
-            <h1 className="left-align">{video.video_title}</h1>
+            <h1 className="left-align video-page-title">{video.video_title}</h1>
             <p className="left-align">{video.view_count} views</p>
             <hr className="horizontal-white" />
             <p className="left-align">{video.description}</p>
             <div className="left-align tags">Tags: {tag}</div>
           </div>
-          <div className="col-3 col-md-3">
+          <div className="col-12 col-md-3">
             <h5>Recommended Videos</h5>
             <hr className="horizontal-white" />
             <ul>
